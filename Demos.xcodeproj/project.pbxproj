@@ -17,6 +17,7 @@
 		BF66CC5B1D3B677F00621D1D /* BezierVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF66CC5A1D3B677F00621D1D /* BezierVC.swift */; };
 		BF66CC5E1D3B959400621D1D /* StrategyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF66CC5D1D3B959400621D1D /* StrategyVC.swift */; };
 		BF66CC621D3C599700621D1D /* AppearanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF66CC611D3C599700621D1D /* AppearanceVC.swift */; };
+		BF7D77C21D3D187B0014F9DA /* AgencyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D77C11D3D187B0014F9DA /* AgencyVC.swift */; };
 		BFABA2DC1D3B4BAE001FE4A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFABA2DB1D3B4BAE001FE4A1 /* AppDelegate.swift */; };
 		BFABA2DE1D3B4BAE001FE4A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFABA2DD1D3B4BAE001FE4A1 /* ViewController.swift */; };
 		BFABA2E11D3B4BAE001FE4A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFABA2DF1D3B4BAE001FE4A1 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		BF66CC5A1D3B677F00621D1D /* BezierVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierVC.swift; sourceTree = "<group>"; };
 		BF66CC5D1D3B959400621D1D /* StrategyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyVC.swift; sourceTree = "<group>"; };
 		BF66CC611D3C599700621D1D /* AppearanceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceVC.swift; sourceTree = "<group>"; };
+		BF7D77C11D3D187B0014F9DA /* AgencyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgencyVC.swift; sourceTree = "<group>"; };
 		BFABA2D81D3B4BAE001FE4A1 /* Demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFABA2DB1D3B4BAE001FE4A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFABA2DD1D3B4BAE001FE4A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,7 +114,7 @@
 		BF66CC571D3B66EE00621D1D /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				BF66CC5C1D3B957300621D1D /* Design Pattern */,
+				BF66CC5C1D3B957300621D1D /* 设计模式 */,
 			);
 			name = Others;
 			sourceTree = "<group>";
@@ -132,29 +134,38 @@
 			name = "Core Graphic";
 			sourceTree = "<group>";
 		};
-		BF66CC5C1D3B957300621D1D /* Design Pattern */ = {
+		BF66CC5C1D3B957300621D1D /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
-				BF66CC601D3C58D600621D1D /* Appearance */,
-				BF66CC5F1D3B9BBE00621D1D /* Strategy */,
+				BF7D77C01D3D17260014F9DA /* 中介者模式 */,
+				BF66CC601D3C58D600621D1D /* 外观模式 */,
+				BF66CC5F1D3B9BBE00621D1D /* 策略模式 */,
 			);
-			name = "Design Pattern";
+			name = "设计模式";
 			sourceTree = "<group>";
 		};
-		BF66CC5F1D3B9BBE00621D1D /* Strategy */ = {
+		BF66CC5F1D3B9BBE00621D1D /* 策略模式 */ = {
 			isa = PBXGroup;
 			children = (
 				BF66CC5D1D3B959400621D1D /* StrategyVC.swift */,
 			);
-			name = Strategy;
+			name = "策略模式";
 			sourceTree = "<group>";
 		};
-		BF66CC601D3C58D600621D1D /* Appearance */ = {
+		BF66CC601D3C58D600621D1D /* 外观模式 */ = {
 			isa = PBXGroup;
 			children = (
 				BF66CC611D3C599700621D1D /* AppearanceVC.swift */,
 			);
-			name = Appearance;
+			name = "外观模式";
+			sourceTree = "<group>";
+		};
+		BF7D77C01D3D17260014F9DA /* 中介者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				BF7D77C11D3D187B0014F9DA /* AgencyVC.swift */,
+			);
+			name = "中介者模式";
 			sourceTree = "<group>";
 		};
 		BFABA2CF1D3B4BAE001FE4A1 = {
@@ -276,6 +287,7 @@
 				BF66CC5B1D3B677F00621D1D /* BezierVC.swift in Sources */,
 				BF66CC621D3C599700621D1D /* AppearanceVC.swift in Sources */,
 				BF66CC5E1D3B959400621D1D /* StrategyVC.swift in Sources */,
+				BF7D77C21D3D187B0014F9DA /* AgencyVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
