@@ -40,6 +40,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="WhK-Eu-e6B" kind="show" id="gdL-1Y-J0j"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -51,9 +54,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="其他" id="H9h-RS-amR"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-                    <connections>
-                        <segue destination="WhK-Eu-e6B" kind="show" id="Vx3-xF-Wbg"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GO9-NA-CO4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -87,7 +87,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="Pbc-JT-XvO" kind="show" id="hUQ-2n-I5z"/>
+                                            <segue destination="Pbc-JT-XvO" kind="show" id="ReQ-q4-WHi"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="TgS-3z-WmO" style="IBUITableViewCellStyleDefault" id="RmO-tD-XWl">
@@ -106,6 +106,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="SyX-Sg-q3l" kind="show" id="6tG-rF-HjG"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="9Dg-AH-ybU" style="IBUITableViewCellStyleDefault" id="CJr-Nh-twt">
                                         <rect key="frame" x="0.0" y="152" width="375" height="44"/>
@@ -209,7 +212,7 @@
         <!--策略模式-->
         <scene sceneID="9zu-Ht-T5P">
             <objects>
-                <viewController id="Pbc-JT-XvO" sceneMemberID="viewController">
+                <viewController id="Pbc-JT-XvO" customClass="StrategyVC" customModule="Demos" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KhA-lm-BH8"/>
                         <viewControllerLayoutGuide type="bottom" id="G2c-mD-ATk"/>
@@ -223,7 +226,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e2d-yP-UB8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2434" y="-298"/>
+            <point key="canvasLocation" x="2561" y="-456"/>
+        </scene>
+        <!--外观模式-->
+        <scene sceneID="EkH-6S-Sc1">
+            <objects>
+                <viewController id="SyX-Sg-q3l" customClass="AppearanceVC" customModule="Demos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Onr-rq-XPB"/>
+                        <viewControllerLayoutGuide type="bottom" id="kzQ-gm-MWy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GKA-sH-zqp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="外观模式" id="f5J-dq-bSs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Oy-Nj-Jid" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2559" y="185"/>
         </scene>
     </scenes>
 </document>
